@@ -43,4 +43,5 @@ function send(){
     document.getElementById("number2").value = "";
     document.getElementById("number2").style.visibility = "hidden";
     document.getElementById("button").style.visibility = "hidden";
+    document.getElementsByClassName("label").style.visibility = "hidden";
 }
