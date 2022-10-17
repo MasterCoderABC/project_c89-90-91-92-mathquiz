@@ -39,9 +39,6 @@ function send(){
     document.getElementById("output").innerHTML = row;
     
     document.getElementById("number1").value = "";
-    document.getElementById("number1").style.visibility = "hidden";
     document.getElementById("number2").value = "";
-    document.getElementById("number2").style.visibility = "hidden";
-    document.getElementById("button").style.visibility = "hidden";
-    document.getElementsByClassName("label").style.visibility = "hidden";
+
 }
