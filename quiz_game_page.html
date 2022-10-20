@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The Math Quiz Game!</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="quiz_game.css">
+<script src="quiz_game_page.js" defer></script>
+</head>
+<body>
+
+<h4 id="player1_name"></h4> <span id="player1_score"></span><br>
+<h4 id="player2_name"></h4> <span id="player2_score"></span>
+	
+<h4 id="round">Round 1 of 10</h4>
+<div class="container">
+
+	<center>
+		<h2 style="color: white;">The Math Quiz Game!</h2>
+		<h2 id="announce"></h2>
+        <h3 id="player_question"></h3>
+        <h3 id="player_answer"></h3>
+		<div id="output" class="col-lg-6"></div>
+		<br>
+		<br>
+		<label id="label1"><b>Number 1</b></label>
+	    <input type="number" id="number1" class="form-control" placeholder="Enter number 1 here">
+		<br>
+        <label id="label2"><b>Number 2</b></label>
+	    <input type="number" id="number2" class="form-control" placeholder="Enter number 2 here">
+        <br>
+        <button id="button" onclick="send()" class="btn btn-success" style="width: 30%;">Send</button>
+		<footer>There are ten rounds. Whoever get the most points will win.</footer>
+	</center>
+</div>
+</body>
+</html>
